@@ -2,4 +2,4 @@
 
 ---
 
-[CV.md][https://github.com/kolikolga/rsschool-cv/blob/gh-pages/cv.md]
+[CV](https://github.com/kolikolga/rsschool-cv/blob/gh-pages/cv.md)
