@@ -1,16 +1,17 @@
-#Olga Kolikhalova
+# Olga Kolikhalova
 
 ---
 
-###Junior Frontend Developer
+### Junior Frontend Developer
 
 ---
 
 Contact information:
-*Location: Krasnodar, Rassia
-*Phone: +7 918 027 20 72
-*Email: kolikhalova.olga@gmail.com
-*GitHub
+
+- Location: Krasnodar, Rassia
+- Phone: +7 918 027 20 72
+- Email: kolikhalova.olga@gmail.com
+- GitHub
 
 ---
 
@@ -22,11 +23,11 @@ I am currently studying JavaScript/Front-end at RSSchool
 
 Skills
 
-*HTML
-*CSS
-*JavaScript (Basic)
-*Git GitHub
-\*Adobe Illustrator
+- HTML
+- CSS
+- JavaScript (Basic)
+- Git GitHub
+- Adobe Illustrator
 
 ---
 
@@ -41,11 +42,11 @@ I develop my own web applications to make life easier for people.
 ---
 
 Education
-\*Courses: Web developer Yandex.Practicum
+Courses: Web developer Yandex.Practicum
 
 ---
 
 English
 
-*English - Beginner
-*Russian - Native
+- English - Beginner
+- Russian - Native
