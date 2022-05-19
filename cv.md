@@ -6,7 +6,7 @@
 
 ---
 
-Contact information:
+### Contact information:
 
 - Location: Krasnodar, Rassia
 - Phone: +7 918 027 20 72
@@ -15,13 +15,13 @@ Contact information:
 
 ---
 
-About myself
+### About myself
 
 I am currently studying JavaScript/Front-end at RSSchool
 
 ---
 
-Skills
+### Skills
 
 - HTML
 - CSS
@@ -31,22 +31,23 @@ Skills
 
 ---
 
-Code Example
+### Code Example
 
 ---
 
-Experience
+### Experience
 
 I develop my own web applications to make life easier for people.
 
 ---
 
-Education
-Courses: Web developer Yandex.Practicum
+### Education
+
+- Courses: Web developer Yandex.Practicum
 
 ---
 
-English
+### English
 
 - English - Beginner
 - Russian - Native
