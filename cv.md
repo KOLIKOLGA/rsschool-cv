@@ -35,6 +35,12 @@ I am currently studying JavaScript/Front-end at RSSchool
 
 ---
 
+```
+function multiply(a, b) {
+   return a * b;
+   }
+```
+
 ### Experience
 
 I develop my own web applications to make life easier for people.
@@ -51,3 +57,7 @@ I develop my own web applications to make life easier for people.
 
 - English - Beginner
 - Russian - Native
+
+```
+
+```
