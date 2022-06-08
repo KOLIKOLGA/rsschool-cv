@@ -1,14 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="./css/normalize.css">
-   <link rel="stylesheet" href="./css/style.css">
-   <title>CV</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="./assets/icons/cv.scg.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+  <title>CV</title>
 </head>
+
 <body>
-   
+  <div class="site-container">
+    <header class="header">
+      <img src="./assets/images/avatar11.jpg" alt="my photo" class="header__avatar">
+      <div class="title__container">
+        <nav class="nav-menu">
+          <ul class="nav-menu__list">
+            <li class="nav-menu__item">
+              <a href="#contacts" class="nav-menu__link">Contacts</a>
+            </li>
+            <li class="nav-menu__item">
+              <a href="#summary" class="nav-menu__link">Summary</a>
+            </li>
+            <li class="nav-menu__item">
+              <a href="#code" class="nav-menu__link">Code</a>
+            </li>
+            <li class="nav-menu__item">
+              <a href="#projects" class="nav-menu__link">Projects</a>
+            </li>
+            <li class="nav-menu__item">
+              <a href="#skills" class="nav-menu__link">Skills</a>
+            </li>
+            <li class="nav-menu__item">
+              <a href="#courses" class="nav-menu__link">Courses</a>
+            </li>
+            <li class="nav-menu__item">
+              <a href="#english" class="nav-menu__link">Languages</a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="header__title">Kolikhalova Olga</h1>
+        <p class="header__sub-title">Junior Front-End Developer</p>
+      </div>
+    </header>
+    <main class="main">
+      <ul class="info-block">
+        <li class="info-block__item">
+          <h2 class="block__title" id="contacts">Contacts</h2>
+          <nav>
+            <ul class="contacts-list">
+              <li class="discord-block">
+                <img class="vector-img"
+                  src="./assets/icons/discord_social_network_interaction_communication_social_media_icon_196624.svg"
+                  alt="discord-icon">
+                <a href="https://discord.gg/q9anAQF2" class="link discord">Olga Kolikhalova (@KOLIKOLGA)#1793</a>
+              </li>
+              <li class="telegram-block">
+                <img class="vector-img"
+                  src="./assets/icons/logo_telegram_airplane_air_plane_paper_airplane_icon_143169.svg"
+                  alt="telegram-icon">
+                <a href="https://t.me/Kolikolga" class="link telegram">https://t.me/Kolikolga</a>
+              </li>
+              <li class="gmail-block">
+                <img class="vector-img"
+                  src="./assets/icons/1492616972-16-gmail-email-mail-communication-message-service_83395.svg"
+                  alt="gmail-icon">
+                <a href="mailto:kolikhalova.olga@gmail.com" class="gmail">kolikhalova.olga@gmail.com</a>
+              </li>
+            </ul>
+          </nav>
+        </li>
+        <li class="info-block__item">
+          <h2 class="block__title" id="summary">Summary</h2>
+          <p class="block__descr">I am currently studying JavaScript/Front-end at RSSchool</p>
+        </li>
+        <li class="info-block__item">
+          <h2 class="block__title" id="code">Code</h2>
+          <p class="code-descr">function multiply(a, b) {
+            return a * b;
+            }</p>
+        </li>
+        <li class="info-block__item">
+          <h2 class="block__title" id="projects">Projects</h2>
+          <ul class="project-list">
+            <li class="project-list__item">
+              <p>Educational projects:</p>
+            </li>
+            <li class="project-list__item">
+              <a href="https://kolikolga.github.io/rsschool-cv/" target="_blank" class="project-link">CV (Rs.school)</a>
+            </li>
+            <li class="project-list__item">
+              <a href="https://github.com/KOLIKOLGA/how-to-learn" target="_blank" class="project-link">How to learn (1
+                module Yandex.Practicum.)</a>
+            </li>
+            <li class="project-list__item">
+              <a href="https://github.com/KOLIKOLGA/russian-travel" target="_blank" class="project-link">Russian travel
+                (2 module Yandex.Practicum.)</a>
+            </li>
+          </ul>
+        </li>
+        <li class="info-block__item">
+          <h2 class="block__title" id="skills">Skills</h2>
+          <ul class="skills-list">
+            <li class="skills-list__item">
+              <p>HTML</p>
+            </li>
+            <li class="skills-list__item">
+              <p>CSS</p>
+            </li>
+            <li class="skills-list__item">
+              <p>JavaScript (basic)</p>
+            </li>
+            <li class="skills-list__item">
+              <p>Git GitHub</p>
+            </li>
+          </ul>
+        </li>
+        <li class="info-block__item">
+          <h2 class="block__title" id="courses">Courses</h2>
+          <ul class="courses-list">
+            <li class="courses-list__item">
+              <p>Web developer Yandex.Practicum.</p>
+            </li>
+            <li class="courses-list__item">
+              <p>GLO ACADEMY JavaScript Mini-Course.</p>
+            </li>
+          </ul>
+        </li>
+        <li class="info-block__item">
+          <h2 class="block__title" id="english">Languages</h2>
+          <ul class="language-list">
+            <li class="language-list__item">
+              <p>English - Beginner</p>
+            </li>
+            <li class="language-list__item">
+              <p>Russian - Native</p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <p class="author">2022 &#169; Kolikhalova Olga</p>
+        <div class="github-block">
+          <img src="./assets/icons/github_git_icon_145985.svg" alt="GitHub" class="vector-img">
+          <a href="https://github.com/KOLIKOLGA" target="_blank" class="footer-link">KOLIKOLGA</a>
+        </div>
+        <a href="https://rs.school/js/"><img src="./assets/icons/rs_school_js.svg" alt="logotype rs_school"
+            class="footer-logo"></a>
+      </div>
+    </footer>
+  </div>
 </body>
+
 </html>

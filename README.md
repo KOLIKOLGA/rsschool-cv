@@ -2,4 +2,8 @@
 
 ---
 
-[https://github.com/kolikolga/rsschool-cv/blob/gh-pages/cv.md](https://github.com/kolikolga/rsschool-cv/blob/gh-pages/cv.md)
+[https://kolikolga.github.io/rsschool-cv/](https://kolikolga.github.io/rsschool-cv/)
+
+---
+
+[https://kolikolga.github.io/rsschool-cv/cv](https://kolikolga.github.io/rsschool-cv/cv)
