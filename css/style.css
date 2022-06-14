@@ -84,6 +84,7 @@ a {
 
 .nav-menu__list {
    display: flex;
+
    gap: 20px;
    color: #dcd9b9;
 }
@@ -133,8 +134,9 @@ a {
    bottom: 0;
    left: 50%;
    background-color: #dcd9b9;
-   transition: width .3s ease-in-out;
-   opacity: 0;
+   transition: all .3s linear .3s;
+
+
 }
 
 .nav-menu__link::before {
@@ -145,18 +147,19 @@ a {
    bottom: 0;
    right: 50%;
    background-color: #dcd9b9;
-   transition: width .3s ease-in-out;
-   opacity: 0;
+   transition: all .3s linear .3s;
+
+
 }
 
 .nav-menu__link:hover::after {
    width: 45%;
-   opacity: 1;
+
 }
 
 .nav-menu__link:hover::before {
    width: 45%;
-   opacity: 1;
+
 }
 
 .skills-list,
@@ -239,8 +242,9 @@ a {
    bottom: 0;
    right: 50%;
    background-color: #dcd9b9;
-   transition: width .3s ease-in-out;
-   opacity: 0;
+   transition: all .3s linear .3s;
+
+
 }
 
 .footer-link::before {
@@ -251,19 +255,20 @@ a {
    bottom: 0;
    left: 50%;
    background-color: #dcd9b9;
-   transition: width .3s ease-in-out;
-   opacity: 0;
+   transition: all .3s linear .3s;
+
+
 }
 
 .footer-link:hover::after {
    width: 45%;
-   opacity: 1;
+
 
 }
 
 .footer-link:hover::before {
    width: 45%;
-   opacity: 1;
+
 
 }
 
@@ -276,18 +281,22 @@ a {
 }
 
 .block__descr {
-   margin: 70px 40px;
+   margin: 70px 40px 10px 40px;
    font-size: 18px;
    line-height: 1.5;
    color: #95904f;
 }
 
+.block__descr:last-child {
+   margin: 10px 40px;
+}
+
 .project-link {
-   transition: color .8s ease;
+   transition: color .2s ease .2s;
    font-weight: 400;
 }
 
 .project-link:hover {
    color: #dd5044;
-   font-weight: 400;
+
 }
