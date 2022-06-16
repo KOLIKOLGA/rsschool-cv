@@ -40,7 +40,7 @@ a {
 .site-container {
    position: relative;
    max-width: 1440px;
-   width: 100vw;
+   width: 90vw;
    height: 100%;
    margin: 0 auto;
    padding-top: 40px;
@@ -49,14 +49,21 @@ a {
 }
 
 .header {
-   max-width: 1440px;
-   width: 100%;
-   height: 200px;
+   min-width: 100%;
+   min-height: 200px;
    display: flex;
+   flex-direction: column;
    align-items: center;
    justify-content: space-evenly;
    background-color: #95904f;
 
+}
+
+.header-block {
+   min-width: 80%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
 }
 
 .header__avatar {
@@ -82,15 +89,19 @@ a {
    color: #dcd9b9;
 }
 
+.nav-menu {
+   width: 80%;
+}
+
 .nav-menu__list {
    display: flex;
-
-   gap: 20px;
+   width: 100%;
+   justify-content: space-between;
    color: #dcd9b9;
 }
 
 .info-block {
-   max-width: 1200px;
+   width: 85%;
    margin: 0 auto;
    padding: 50px;
    display: flex;
@@ -100,7 +111,8 @@ a {
 }
 
 .info-block__item {
-   width: 550px;
+   width: 45%;
+   min-width: 300px;
    height: 300px;
    position: relative;
 }
@@ -213,7 +225,7 @@ a {
 }
 
 .footer-container {
-   width: 1200px;
+   width: 85%;
    margin: 0 auto;
    display: flex;
    align-items: center;
