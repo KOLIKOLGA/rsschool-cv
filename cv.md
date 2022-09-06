@@ -9,7 +9,8 @@
 ### Contact information:
 
 - Location: Krasnodar, Rassia
-- Phone: +7 918 027 20 72
+- [Olga Kolikhalova (@KOLIKOLGA)#1793](https://discord.gg/q9anAQF2)
+- [https://t.me/Kolikolga](https://t.me/Kolikolga)
 - Email: kolikhalova.olga@gmail.com
 - [GitHub](https://github.com/KOLIKOLGA?tab=repositories)
 
