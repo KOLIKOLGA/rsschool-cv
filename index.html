@@ -1,13 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
-  <title>CV</title>
-</head>
-<body>
-<h1>Olga Kolikhalova CV</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/image/cv.scg.ico" />
+    <link rel="stylesheet" href="./sass/normalize.css" />
+    <link rel="stylesheet" href="sass/style.css" />
+    <link rel="stylesheet" href="./assets/fonts/roboto.css" />
+    <title>CV</title>
+  </head>
+  <body>
+    <div class="page-container">
+      <header class="header">
+        <div class="header__content">
+          <div class="block"></div>
+          <div class="header-info__block">
+            <nav class="nav-menu">
+              <ul class="nav-menu__list">
+                <li class="nav-menu__item">
+                  <a href="#contacts" class="nav-menu__link">Contacts</a>
+                </li>
+                <li class="nav-menu__item">
+                  <a href="#summary" class="nav-menu__link">Summary</a>
+                </li>
+                <li class="nav-menu__item">
+                  <a href="#code" class="nav-menu__link">Code</a>
+                </li>
+                <li class="nav-menu__item">
+                  <a href="#projects" class="nav-menu__link">Projects</a>
+                </li>
+                <li class="nav-menu__item">
+                  <a href="#skills" class="nav-menu__link">Skills</a>
+                </li>
+                <li class="nav-menu__item">
+                  <a href="#courses" class="nav-menu__link">Courses</a>
+                </li>
+                <li class="nav-menu__item">
+                  <a href="#english" class="nav-menu__link">Languages</a>
+                </li>
+              </ul>
+            </nav>
+            <h1 class="header__title">Olga Kolikhalova</h1>
+            <p class="header__sub-title">Junior Frontend Developer</p>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="main-container">
+          <div class="left-block">
+            <div class="image-container">
+              <img
+                src="./assets/image/avatar11.jpg"
+                class="avatar"
+                alt="photo"
+              />
+            </div>
+            <div class="info-block">
+              <h2 class="block__title" id="contacts">Contacts</h2>
+              <nav class="contacts-navigation">
+                <ul>
+                  <li class="discord-block">
+                    <img
+                      class="vector-img"
+                      src="./assets/icons/discord_social_network_interaction_communication_social_media_icon_196624.svg"
+                      alt="discord-icon"
+                    />
+                    <a href="#" class="link discord"
+                      >Olga Kolikhalova (@KOLIKOLGA)#1793</a
+                    >
+                  </li>
+                  <li class="telegram-block">
+                    <img
+                      class="vector-img"
+                      src="./assets/icons/logo_telegram_airplane_air_plane_paper_airplane_icon_143169.svg"
+                      alt="telegram-icon"
+                    />
+                    <a href="https://t.me/Kolikolga" class="link telegram"
+                      >https://t.me/Kolikolga</a
+                    >
+                  </li>
+                  <li class="gmail-block">
+                    <img
+                      class="vector-img"
+                      src="./assets/icons/1492616972-16-gmail-email-mail-communication-message-service_83395.svg"
+                      alt="gmail-icon"
+                    />
+                    <a
+                      href="mailto:kolikhalova.olga@gmail.com"
+                      class="link gmail"
+                      >kolikhalova.olga@gmail.com</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+              <div class="code__block">
+                <h2 class="block__title-white block__color" id="code">
+                  Code Example
+                </h2>
+
+                <p class="code__descr">
+                  function multiply(a, b) { return a * b; }
+                </p>
+              </div>
+            </div>
+            <div class="info-block">
+              <div class="projects__block">
+                <h2 class="block__title-white block__color" id="skills">
+                  Skills
+                </h2>
+                <ul class="skills__list code__descr">
+                  <li class="skills__item">HTML</li>
+                  <li class="skills__item">CSS</li>
+                  <li class="skills__item">JavaScript (basic)</li>
+                  <li class="skills__item">Git GitHub</li>
+                  <li class="skills__item">Adobe Illustrator</li>
+                </ul>
+              </div>
+              <div class="projects__block">
+                <h2 class="block__title-white block__color" id="english">
+                  Languages
+                </h2>
+
+                <ul class="skills__list code__descr">
+                  <li class="skills__item">English - Beginner</li>
+                  <li class="skills__item">Russian - Native</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="center-block">
+            <div class="info-block__center">
+              <h2 class="block__title" id="summary">About myself</h2>
+              <p class="block__descr">
+                I am currently studying JavaScript/Front-end at RSSchool
+              </p>
+              <p class="block__descr">
+                I dreamed of programming as a child. There are so many
+                opportunities to learn programming now that it's just stupid to
+                give up on a dream.
+              </p>
+            </div>
+            <div class="info-block__center">
+              <h2 class="block__title education" id="courses">Education</h2>
+              <p class="block__descr">
+                Courses: Web developer Yandex.Practicum.
+              </p>
+              <p class="block__descr">GLO ACADEMY JavaScript Mini-Course.</p>
+            </div>
+            <div class="info-block__center">
+              <h2 class="block__title" id="projects">Projects</h2>
+              <h3 class="block__title">Practice HTML, CSS, JavaScript</h3>
+              <ul>
+                <li class="block__descr">
+                  <h3 class="block__title">Educational projects:</h3>
+                </li>
+                <li class="block__descr">
+                  <a
+                    href="https://kolikolga.github.io/rsschool-cv/"
+                    class="block__descr title__hover"
+                    >CV (Rs.school)</a
+                  >
+                </li>
+                <li class="block__descr">
+                  <a
+                    href="https://kolikolga.github.io/cars-hw/"
+                    class="block__descr title__hover"
+                    >Premium car rental (intensive "Fronted Start" ITlogy)</a
+                  >
+                </li>
+                <li class="block__descr">
+                  <a
+                    href="https://github.com/KOLIKOLGA/how-to-learn"
+                    class="block__descr title__hover"
+                    >How to learn (1 module Yandex.Practicum.)</a
+                  >
+                </li>
+                <li class="block__descr">
+                  <a
+                    href="https://github.com/KOLIKOLGA/russian-travel"
+                    class="block__descr title__hover"
+                    >Russian travel (2 module Yandex.Practicum.)</a
+                  >
+                </li>
+                <li class="block__descr">
+                  <h3 class="block__title">Pet-project:</h3>
+                </li>
+                <li class="block__descr">
+                  <a
+                    href="https://kolikolga.github.io/NikitckayaSloboda/index.html"
+                    class="block__descr title__hover"
+                    >Pilgrimage service "Nikitskaya Sloboda"</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer__content">
+          <div class="block"></div>
+          <div class="github-block display-flex">
+            <img
+              src="./assets/icons/github_git_icon_145985.svg"
+              alt="GitHub"
+              class="vector-img"
+            />
+            <a
+              href="https://github.com/KOLIKOLGA"
+              target="_blank"
+              class="footer-link"
+              >KOLIKOLGA</a
+            >
+          </div>
+          <p class="author">2022 Kolikhalova Olga</p>
+          <a href="https://rs.school/js/"
+            ><img
+              src="./assets/icons/rs_school_js.svg"
+              alt="logotype"
+              class="footer-logo"
+          /></a>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
